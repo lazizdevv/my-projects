@@ -1,0 +1,52 @@
+.btn-1 {
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  /* transition: 1s; */
+  /* transition: padding 1s; */
+  /* transition: background-color 1s; */
+  /* transition: all 1s linear 2s; */
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  padding: 10px 25px;
+  border-color: red;
+  background-color: blue;
+  color: white;
+}
+
+.link-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.5s;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+}
+
+.link-1:link {
+  color: red;
+}
+
+.link-1:visited {
+  color: green;
+}
+
+.link-1:active {
+  color: yellow;
+}
+
+.link-1:focus {
+  color: orange;
+}
+
+.link-1:hover {
+  padding: 10px 30px;
+  background-color: red;
+  color: aqua;
+}

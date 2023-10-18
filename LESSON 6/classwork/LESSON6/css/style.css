@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DM Sans;
+}
+
+.container {
+  /* width: 1200px; */
+  /* 1440-2*140=1440-280=1160 */
+  width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  padding: 45px 0;
+  background-color: yellow;
+}
+
+nav .container * {
+  display: inline-block;
+}
+
+.nav-list {
+  margin: 0 203px;
+  list-style-type: none;
+}
+
+.nav-item a {
+  margin: 0 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.5s;
+  font-style: normal;
+  line-height: normal;
+  color: #3d3d3f;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #f35f2f;
+}
+
+nav button {
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: 2px solid #f35f2f;
+  opacity: 0.85;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.5s;
+  background-color: #f35f2f;
+  color: #fff;
+  font-style: normal;
+  line-height: normal;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #fff;
+  color: #f35f2f;
+}
+
+#section-1 {
+  background-color: red;
+}

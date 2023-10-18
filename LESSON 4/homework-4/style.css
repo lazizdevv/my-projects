@@ -1,0 +1,33 @@
+
+.navbar{
+    background-color: rgb(40,42,53);
+    color: aliceblue;
+    width:initial;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding:15px;
+    font-size: 25px;
+}
+.btn{
+   
+   background-color: rgb(4,170,109); 
+   color: white;
+   padding: 15px;
+   margin: 20px;
+   
+}
+.about{
+    background-color: rgb(217,238,225);
+}
+p{
+    margin: 35px;
+}
+a{
+    color: aliceblue;
+    margin-left: 10px;
+    text-decoration: none;
+}
+img{
+    width: 1500px;
+}
